@@ -57,6 +57,6 @@ export const profile: Profile = {
   links: [
     { label: "GitHub", href: "https://github.com/your-handle" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/your-handle" },
-    { label: "Email", href: "mailto:you@example.com" },
+    { label: "Email", href: "mailto:you@example.co" },
   ],
 };
