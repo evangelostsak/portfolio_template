@@ -49,7 +49,7 @@ export const cvArticles: CvArticle[] = [
       'Developed MovieLand (Flask + SQLAlchemy + OMDb API) with authentication, role-based access, and data integrity logic',
       'Practiced infrastructure as code (Terraform) and iterative environment validation to reduce configuration drift',
     ],
-    tags: ['Python', 'JavaScript', 'Full Stack', 'Software Engineering'],
+    tags: ['Python', 'Flask', 'Terraform', 'AWS', 'SQLAlchemy', 'Cloud Architecture'],
     type: 'education',
   },
   {
