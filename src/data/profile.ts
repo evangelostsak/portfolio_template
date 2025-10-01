@@ -42,8 +42,9 @@ export const profile: Profile = {
     // CI/CD & Automation
     "GitHub Actions",
     "CI/CD",
-    "Playwright",
-    "Jest",
+    "Automation",
+    // Testing & Validation
+    "Terratest",
     "Pytest",
     "Selenium",
     "Great Expectations",
