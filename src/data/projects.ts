@@ -53,7 +53,7 @@ export const projects: Project[] = [
       "Docker",
     ],
     image: "/images/project-placeholder.svg",
-    link: "#",
-    repo: "#",
+    link: "https://evangelostsak.pythonanywhere.com/",
+    repo: "https://github.com/evangelostsak/Movieland",
   },
 ];
