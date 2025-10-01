@@ -22,7 +22,7 @@ export const profile: Profile = {
   summary:
     "DevOps & Cloud Engineer with AWS certification and hands-on experience automating infrastructure, secure delivery pipelines, and resilient backend workloads. I bridge infrastructure-as-code (Terraform), cloud architecture, and test automation (Terratest / CI) to ship reliable, observable systems—while continuously levelling up in scalability, security, and cost-aware design.",
   location: "Berlin, Germany",
-  email: "you@example.com",
+  email: "baggtsak55@gmail.com",
   lookingFor: "Full time position",
   avatar: "/images/avatar.svg",
   resumeUrl: "/resume",
