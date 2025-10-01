@@ -26,10 +26,10 @@ export const cvArticles: CvArticle[] = [
     type: 'work',
   },
   {
-    title: 'QA Intern',
-    org: 'Webeet',
-    location: 'Remote',
-    period: 'Jan 2024 - Present',
+    title: 'Operations & Team Leadership (Multiple Roles)',
+    org: 'Various (White Backshop, Lieferando, Tsakoudis Lebensmittel GmbH, Kita Sonnenbogen)',
+    location: 'Berlin, Germany',
+    period: 'Feb 2019 – Nov 2023',
     bullets: [
       'Implemented TDD approach with Jest unit tests and Playwright E2E testing',
       'Owned CI/CD pipeline stability through comprehensive test automation',
