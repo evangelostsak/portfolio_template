@@ -61,7 +61,7 @@ export const cvArticles: CvArticle[] = [
       'Studied foundational programming (C++ / Java), embedded development (Arduino), and deployment fundamentals',
       'Built early problem-solving discipline and understanding of structured software design',
     ],
-    tags: ['Python', 'Selenium', 'QA Testing', 'Automation'],
+    tags: ['C++', 'Java', 'Embedded', 'Foundations'],
     type: 'education',
   },
   {
