@@ -24,7 +24,7 @@ export const profile: Profile = {
   location: "Berlin, Germany",
   email: "baggtsak55@gmail.com",
   lookingFor: "Full time - Part time position / Internship",
-  avatar: "/images/avatar.svg",
+  avatar: "/images/photo.png",
   resumeUrl: "/resume",
   skills: [
     "TypeScript",
