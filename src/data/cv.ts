@@ -13,8 +13,8 @@ export const cvArticles: CvArticle[] = [
   {
     title: 'DevSecOps Engineer',
     org: 'Webeet',
-    location: 'Remote',
-    period: 'Jan 2024 - Present',
+    location: 'Berlin, Germany (Remote)',
+    period: 'Aug 2025 – Sep 2025',
     bullets: [
       'Built AI-first features using RAG/LLM orchestration and MapLibre visualization',
       'Implemented SSR React views with Fastify BFF endpoints and PostgreSQL',
