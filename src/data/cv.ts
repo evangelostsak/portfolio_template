@@ -35,7 +35,7 @@ export const cvArticles: CvArticle[] = [
       'Optimized workflows and shift handovers to maintain reliability and service quality',
       'Developed transferable soft skills in communication, ownership, and structured problem solving',
     ],
-    tags: ['Playwright', 'Jest', 'CI/CD', 'Selenium', 'Pytest', 'Great Expectations'],
+    tags: ['Leadership', 'Operations', 'Communication', 'Process Improvement'],
     type: 'work',
   },
   {
