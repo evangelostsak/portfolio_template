@@ -9,15 +9,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Layered AI (Webeet.io)",
-    description:
-      "Implemented LLM orchestration to generate neighborhood scores and visualized them as a choropleth on a map-centric interface. Built BFF endpoints to orchestrate data for SSR React views.",
-    tags: ["RAG", "LLM", "MapLibre", "Fastify", "React (SSR)", "TypeScript"],
-    image: "/images/project-placeholder.svg",
-    link: undefined,
-    repo: undefined,
-  },
-  {
     title: "AWS Grocery App Infrastructure",
     description:
       "Provisioned a production-style multi‑AZ AWS environment with Terraform: custom VPC (3 AZs), EC2 Auto Scaling Group behind an ALB, PostgreSQL RDS + read replica in private subnets, S3 for asset storage, IAM roles for least‑privilege access, and CloudWatch alarms wired to SNS for proactive alerting.",
