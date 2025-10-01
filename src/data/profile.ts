@@ -18,7 +18,7 @@ export type Profile = {
 
 export const profile: Profile = {
   name: "Evangelos Tsakoudis",
-  role: "DevOps / Cloud Engineer",
+  role: "DevOps & Cloud Engineer",
   summary:
     "Software/QA Engineering Intern experienced in building/testing AI-first, map-centric products in a fast-paced, agile environment. Hands-on with TDD, trunk-based development, CI, and end-to-end type safety across React (SSR), TypeScript, Fastify/Node, FastAPI/Python, and PostgreSQL. Implemented RAG-powered conversational AI, BFF endpoints for performance, and data visualizations with MapLibre.",
   location: "City, Country",
