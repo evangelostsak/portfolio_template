@@ -6,11 +6,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.credly.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'readme-typing-svg.herokuapp.com',
-      },
+      }
     ],
   },
 };
