@@ -61,7 +61,7 @@ export default function ResumePage() {
               <p className="mt-1 text-neutral-700 dark:text-neutral-300">{profile.skills.join(' · ')}</p>
             </div>
             <div>
-              <p className="font-medium">Experience & Projects</p>
+              <p className="font-medium">Experience & Education</p>
               <div className="mt-2 space-y-5">
                 {cvArticles.map((a) => (
                   <article key={`${a.title}-${a.org ?? ''}`}>
