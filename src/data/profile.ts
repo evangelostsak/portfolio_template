@@ -27,9 +27,12 @@ export const profile: Profile = {
   avatar: "/images/photo.png",
   resumeUrl: "/resume",
   skills: [
-    "TypeScript",
-    "React (SSR)",
-    "Next.js",
+    // Core Cloud & Infra
+    "AWS",
+    "Terraform",
+    "Infrastructure as Code (IaC)",
+    // Languages & Backends
+    "Python",
     "Node.js",
     "Fastify",
     "Python",
