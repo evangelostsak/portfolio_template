@@ -41,8 +41,17 @@ export const projects: Project[] = [
   {
     title: "Movieland – Movie Collection Platform",
     description:
-      "Authored comprehensive Jest unit/integration tests and Playwright E2E suites with fixtures. Set up Pytest for Python services and smoke checks to stabilize CI pipelines.",
-    tags: ["Playwright", "Jest", "Pytest", "Selenium"],
+      "Flask + SQLAlchemy web app for managing personal movie collections with user authentication, OMDb API integration (dynamic fetch), likes, profile images, and intelligent cleanup of orphaned data. Includes Terraform IaC modules and deployment scripts plus a live instance for demonstration.",
+    tags: [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "OMDb API",
+      "Auth",
+      "Terraform",
+      "Infrastructure as Code",
+      "Docker",
+    ],
     image: "/images/project-placeholder.svg",
     link: "#",
     repo: "#",
