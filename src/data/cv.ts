@@ -11,7 +11,7 @@ export type CvArticle = {
 
 export const cvArticles: CvArticle[] = [
   {
-    title: 'SWE Intern',
+    title: 'DevSecOps Engineer',
     org: 'Webeet',
     location: 'Remote',
     period: 'Jan 2024 - Present',
