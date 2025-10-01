@@ -63,7 +63,7 @@ export default function ResumePage() {
             <div>
               <p className="font-medium">Experience & Education</p>
               <div className="mt-2 space-y-5">
-                {cvArticles.map((a) => (
+                {cvArticles.filter(a => a.type !== 'certification').map((a) => (
                   <article key={`${a.title}-${a.org ?? ''}`}>
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <h2 className="font-semibold">{a.title}</h2>
