@@ -46,8 +46,18 @@ export const profile: Profile = {
     // Testing & Validation
     "Terratest",
     "Pytest",
-    "Selenium",
-    "Great Expectations",
+    "Jest",
+    // Security & Observability
+    "IAM",
+    "CloudWatch",
+    "EventBridge",
+    "Elastic Stack",
+    // Data & APIs
+    "Flask",
+    "PostgreSQL",
+    "SQL",
+    "API Design",
+    // Collaboration / SCM
     "Git",
     "Tailwind CSS",
     "JavaScript",
