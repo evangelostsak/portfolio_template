@@ -39,10 +39,10 @@ export const cvArticles: CvArticle[] = [
     type: 'work',
   },
   {
-    title: 'Software Engineering Full Stack',
-    org: 'Masterschool',
-    location: 'Remote',
-    period: '2023 - 2024',
+    title: 'Software Engineering / Cloud Engineering Program',
+    org: 'Masterschool GmbH',
+    location: 'Berlin, Germany (Remote)',
+    period: 'Jul 2024 – Sep 2025',
     bullets: [
       'Comprehensive full-stack development curriculum with Python and JavaScript',
       'Built end-to-end applications using modern frameworks and databases',
