@@ -22,7 +22,7 @@ export const cvArticles: CvArticle[] = [
       'Managed internal Docker registry to streamline container distribution and versioned deployments',
       'Automated infrastructure + validation workflows via GitHub Actions, reducing manual steps and drift risk',
     ],
-    tags: ['React (SSR)', 'Fastify', 'FastAPI', 'RAG', 'Zustand', 'Zod', 'MapLibre', 'PostgreSQL'],
+    tags: ['AWS', 'Terraform', 'Terratest', 'WireGuard', 'Caddy', 'GitHub Actions', 'Docker', 'Security'],
     type: 'work',
   },
   {
