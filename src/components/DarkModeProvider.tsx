@@ -13,20 +13,20 @@ export function DarkModeProvider({ children }: { children: React.ReactNode }) {
   // Default to dark true; will sync with saved preference if present.
   const [isDark, setIsDark] = useState(true);
 
+  // On mount, read saved preference (if any). If none, keep dark.
   useEffect(() => {
     const saved = typeof window !== 'undefined' ? localStorage.getItem('darkMode') : null;
     if (saved !== null) {
       setIsDark(saved === 'true');
-    } else if (typeof window !== 'undefined') {
-      setIsDark(window.matchMedia('(prefers-color-scheme: dark)').matches);
     }
   }, []);
 
   useEffect(() => {
+    const root = document.documentElement;
     if (isDark) {
-      document.documentElement.classList.add('dark');
+      root.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.remove('dark');
     }
     localStorage.setItem('darkMode', isDark.toString());
   }, [isDark]);
