@@ -20,7 +20,7 @@ export const profile: Profile = {
   name: "Evangelos Tsakoudis",
   role: "DevOps & Cloud Engineer",
   summary:
-    "Software/QA Engineering Intern experienced in building/testing AI-first, map-centric products in a fast-paced, agile environment. Hands-on with TDD, trunk-based development, CI, and end-to-end type safety across React (SSR), TypeScript, Fastify/Node, FastAPI/Python, and PostgreSQL. Implemented RAG-powered conversational AI, BFF endpoints for performance, and data visualizations with MapLibre.",
+    "DevOps & Cloud Engineer with AWS certification and hands-on experience automating infrastructure, secure delivery pipelines, and resilient backend workloads. I bridge infrastructure-as-code (Terraform), cloud architecture, and test automation (Terratest / CI) to ship reliable, observable systems—while continuously levelling up in scalability, security, and cost-aware design.",
   location: "City, Country",
   email: "you@example.com",
   lookingFor: "Full time position",
