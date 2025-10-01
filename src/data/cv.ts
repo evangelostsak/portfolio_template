@@ -5,7 +5,8 @@ export type CvArticle = {
   period?: string;
   bullets: string[];
   tags?: string[];
-  type: 'work' | 'education';
+  // 'certification' added so we can position certifications separately on the resume
+  type: 'work' | 'education' | 'certification';
 };
 
 export const cvArticles: CvArticle[] = [
