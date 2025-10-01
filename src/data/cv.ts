@@ -53,10 +53,10 @@ export const cvArticles: CvArticle[] = [
     type: 'education',
   },
   {
-    title: 'QA Testing with Python & Selenium',
-    org: 'Masterschool',
-    location: 'Remote',
-    period: '2023 - 2024',
+    title: 'Automations & Programming Studies',
+    org: 'OSZ TIEM',
+    location: 'Berlin, Germany',
+    period: 'Sep 2017 – Dec 2018',
     bullets: [
       'Specialized QA curriculum focusing on Python automation and Selenium testing',
       'Mastered test automation frameworks and continuous integration practices',
