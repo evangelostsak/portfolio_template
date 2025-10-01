@@ -56,12 +56,10 @@ export const profile: Profile = {
     "Flask",
     "PostgreSQL",
     "SQL",
+    "NoSQL",
     "API Design",
     // Collaboration / SCM
     "Git",
-    "Tailwind CSS",
-    "JavaScript",
-    "SQL",
   ],
   links: [
     { label: "GitHub", href: "https://github.com/evangelostsak" },
