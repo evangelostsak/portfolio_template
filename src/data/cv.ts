@@ -58,10 +58,8 @@ export const cvArticles: CvArticle[] = [
     location: 'Berlin, Germany',
     period: 'Sep 2017 – Dec 2018',
     bullets: [
-      'Specialized QA curriculum focusing on Python automation and Selenium testing',
-      'Mastered test automation frameworks and continuous integration practices',
-      'Developed comprehensive test suites for web applications',
-      'Learned advanced testing methodologies and quality assurance strategies',
+      'Studied foundational programming (C++ / Java), embedded development (Arduino), and deployment fundamentals',
+      'Built early problem-solving discipline and understanding of structured software design',
     ],
     tags: ['Python', 'Selenium', 'QA Testing', 'Automation'],
     type: 'education',
