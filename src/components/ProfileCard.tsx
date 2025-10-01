@@ -1,4 +1,6 @@
 import { profile } from '../data/profile';
+import Image from 'next/image';
+import { certifications } from '../data/certifications';
 
 export function ProfileCard() {
   return (
