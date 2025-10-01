@@ -39,7 +39,7 @@ export const projects: Project[] = [
     repo: "https://github.com/evangelostsak/AWS_grocery_mvp",
   },
   {
-    title: "Testing Platform & CI Stability",
+    title: "Movieland – Movie Collection Platform",
     description:
       "Authored comprehensive Jest unit/integration tests and Playwright E2E suites with fixtures. Set up Pytest for Python services and smoke checks to stabilize CI pipelines.",
     tags: ["Playwright", "Jest", "Pytest", "Selenium"],
