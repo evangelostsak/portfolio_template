@@ -55,7 +55,7 @@ export const profile: Profile = {
     "SQL",
   ],
   links: [
-    { label: "GitHub", href: "https://github.com/your-handle" },
+    { label: "GitHub", href: "https://github.com/evangelostsak" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/evangelos-tsakoudis" },
     { label: "Email", href: "mailto:baggtsak55@gmail.com" },
   ],
