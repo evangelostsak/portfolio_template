@@ -30,6 +30,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        {/* Inline no-flash script: ensures dark mode class is applied before hydration */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(() => { try { const pref = localStorage.getItem('darkMode'); if (pref === 'true' || pref === null) { document.documentElement.classList.add('dark'); } else { document.documentElement.classList.remove('dark'); } } catch(e) {} })();`
+          }}
+        />
         <DarkModeProvider>
           <AmbientDrift />
           {children}
