@@ -65,6 +65,28 @@ export const cvArticles: CvArticle[] = [
     tags: ['Python', 'Selenium', 'QA Testing', 'Automation'],
     type: 'education',
   },
+  {
+    title: 'AWS Certified Solutions Architect – Associate',
+    org: 'Amazon Web Services',
+    location: 'Certification',
+    period: 'Aug 2025',
+    bullets: [
+      'Validated skill in designing resilient, secure, and cost-conscious AWS architectures',
+    ],
+    tags: ['AWS', 'Architecture', 'Security'],
+    type: 'certification',
+  },
+  {
+    title: 'AWS Certified Cloud Practitioner',
+    org: 'Amazon Web Services',
+    location: 'Certification',
+    period: 'Apr 2025',
+    bullets: [
+      'Established foundational cloud knowledge across core services, security, and billing models',
+    ],
+    tags: ['AWS', 'Foundations'],
+    type: 'certification',
+  },
 ];
 
 
