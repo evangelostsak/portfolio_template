@@ -31,10 +31,9 @@ export const cvArticles: CvArticle[] = [
     location: 'Berlin, Germany',
     period: 'Feb 2019 – Nov 2023',
     bullets: [
-      'Implemented TDD approach with Jest unit tests and Playwright E2E testing',
-      'Owned CI/CD pipeline stability through comprehensive test automation',
-      'Delivered value through automated testing reducing manual QA effort by 60%',
-      'Learned advanced testing patterns and quality assurance best practices',
+      'Led and coordinated daily operations under high-pressure, deadline-driven environments',
+      'Optimized workflows and shift handovers to maintain reliability and service quality',
+      'Developed transferable soft skills in communication, ownership, and structured problem solving',
     ],
     tags: ['Playwright', 'Jest', 'CI/CD', 'Selenium', 'Pytest', 'Great Expectations'],
     type: 'work',
