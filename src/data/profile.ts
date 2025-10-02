@@ -54,6 +54,7 @@ export const profile: Profile = {
     "Elastic Stack",
     // Data & APIs
     "Flask",
+    "Django",
     "PostgreSQL",
     "SQL",
     "NoSQL",
