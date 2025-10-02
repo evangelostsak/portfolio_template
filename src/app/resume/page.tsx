@@ -23,6 +23,37 @@ export default function ResumePage() {
               <span className="mx-2">·</span>
               <span>{profile.location}</span>
             </p>
+            {/* Moved Links up near location */}
+            {profile.links.length > 0 && (
+              <div className="links-bar flex items-center gap-2 text-sm mt-1 flex-nowrap overflow-x-auto pr-1 [-webkit-overflow-scrolling:touch] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-neutral-300 dark:scrollbar-thumb-neutral-700">
+                {profile.links.map((l, idx) => {
+                  const isLast = idx === profile.links.length - 1;
+                  const iconSrc = l.label.toLowerCase().includes('github')
+                    ? '/images/logos/github.svg'
+                    : l.label.toLowerCase().includes('linked')
+                      ? '/images/logos/linkedin.svg'
+                      : undefined;
+                  const isMailto = l.href.startsWith('mailto:');
+                  return (
+                    <div key={l.href} className="flex items-center gap-1 shrink-0">
+                      <a
+                        className="inline-flex items-center gap-1 text-brand hover:underline"
+                        href={l.href}
+                        {...(!isMailto ? { target: '_blank', rel: 'noreferrer noopener' } : {})}
+                      >
+                        {iconSrc && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={iconSrc} alt="" className="w-4 h-4 opacity-80" />
+                        )}
+                        <span>{l.label}</span>
+                        <span className="hidden print:inline text-neutral-500 ml-1">({l.href})</span>
+                      </a>
+                      {!isLast && <span className="text-neutral-400 dark:text-neutral-600">·</span>}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
             <hr className="border-neutral-200/60 dark:border-neutral-800/60" />
             <p>{profile.summary}</p>
             {/* Certifications Section */}
@@ -87,16 +118,6 @@ export default function ResumePage() {
                   </article>
                 ))}
               </div>
-            </div>
-            <div>
-              <p className="font-medium">Links</p>
-              <ul className="mt-1 flex flex-wrap gap-x-3 gap-y-1">
-                {profile.links.map((l) => (
-                  <li key={l.href}>
-                    <a className="text-brand hover:underline" href={l.href} target="_blank" rel="noreferrer noopener">{l.label}</a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
           <div className="mt-8 text-sm">
