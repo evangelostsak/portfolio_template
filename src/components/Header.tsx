@@ -12,7 +12,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-neutral-200/50 dark:border-neutral-800/60 bg-white/60 dark:bg-neutral-950/40 backdrop-blur-md">
       <div className="container-grid py-3 sm:py-4 flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/images/logo.svg" width={28} height={28} alt="Logo" />
+          <Image src="/images/logo.png" width={32} height={32} alt="Logo" className="rounded-md shadow-sm ring-1 ring-neutral-200/40 dark:ring-neutral-700/40" />
           <span className="font-semibold">{profile.name}</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm">
