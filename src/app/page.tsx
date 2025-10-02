@@ -30,6 +30,18 @@ export default function HomePage() {
                 <div>
                   <h1 className="text-2xl sm:text-3xl font-semibold">{profile.name}</h1>
                   <p className="text-neutral-600 dark:text-neutral-300">{profile.role}</p>
+                  {/* Single Download Resume button placed directly under name & title */}
+                  <div className="mt-3">
+                    <a
+                      href="/files/resume.pdf"
+                      download
+                      className="inline-flex items-center gap-2 rounded-lg px-4 py-2 bg-brand text-white hover:bg-brand-dark active:opacity-90 text-sm transition-colors"
+                      aria-label="Download resume PDF"
+                    >
+                      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
+                      <span>Download Resume (PDF)</span>
+                    </a>
+                  </div>
                 </div>
               </div>
               <p className="mt-4 text-neutral-700 dark:text-neutral-300 leading-relaxed">{profile.summary}</p>
