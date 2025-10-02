@@ -1,6 +1,7 @@
 import { profile } from '../data/profile';
 import Image from 'next/image';
 import { certifications } from '../data/certifications';
+import { EmailLink } from './EmailLink';
 
 export function ProfileCard() {
   return (
@@ -14,7 +15,9 @@ export function ProfileCard() {
         {/* Email */}
         <div className="card p-4">
           <p className="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Email</p>
-            <a className="mt-1 font-medium text-brand" href={`mailto:${profile.email}`}>{profile.email}</a>
+          <div className="mt-1 font-medium">
+            <EmailLink user={profile.email.split('@')[0]} domain={profile.email.split('@')[1]} layout="stack-icon-below" />
+          </div>
         </div>
         {/* Looking For */}
         <div className="card p-4">
