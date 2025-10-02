@@ -44,8 +44,10 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-              <p className="mt-4 text-neutral-700 dark:text-neutral-300 leading-relaxed">{profile.summary}</p>
-              <ProfileCard />
+              <p className="mt-5 text-neutral-700 dark:text-neutral-300 leading-relaxed">{profile.summary}</p>
+              <div className="mt-6">
+                <ProfileCard />
+              </div>
             </div>
 
             <aside className="space-y-4 lg:w-80">
