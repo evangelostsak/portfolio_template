@@ -39,6 +39,7 @@ export const projects: Project[] = [
       "SQLAlchemy",
       "OMDb API",
       "Auth",
+      "AWS",
       "Terraform",
       "Infrastructure as Code",
       "Docker",
