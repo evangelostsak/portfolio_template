@@ -11,7 +11,7 @@ export default function ResumePage() {
       <Header />
       <section className="container-grid py-10 sm:py-14 flex-1">
         <div className="card p-6">
-          <div className="flex items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center justify-between gap-4">
             <h1 className="section-title">Resume</h1>
             <div className="flex items-center gap-3 flex-wrap">
               <ResumeActions downloadLabel="Download 1 pager CV" />
