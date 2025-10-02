@@ -33,7 +33,7 @@ export const profile: Profile = {
     "Infrastructure as Code (IaC)",
     // Languages & Backends
     "Python",
-    "Node.js",
+    "JavaScript",
     "Golang",
     // Containers / OS
     "Docker",
