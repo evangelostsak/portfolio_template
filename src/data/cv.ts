@@ -16,6 +16,7 @@ export const cvArticles: CvArticle[] = [
     location: 'Berlin, Germany (Remote)',
     period: 'Aug 2025 – Sep 2025',
     bullets: [
+      'Led and mentored two teams of interns, guiding Terraform, AWS, and DevSecOps practices',
       'Collaborated on secure AWS infrastructure design across networking, compute, storage, and monitoring layers',
       'Authored Terraform modules with accompanying Terratest (Go) cases to enforce infrastructure correctness',
       'Implemented secure private connectivity (WireGuard VPN) with Caddy reverse proxy and iptables NAT (MASQUERADE)',
