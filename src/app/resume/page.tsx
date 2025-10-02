@@ -18,9 +18,9 @@ export default function ResumePage() {
           <div className="mt-6 space-y-4 text-sm leading-6">
             <p className="font-semibold">{profile.name}</p>
             <p className="text-neutral-600 dark:text-neutral-300">{profile.role}</p>
-            <p>
-              <a className="text-brand hover:underline" href={`mailto:${profile.email}`}>{profile.email}</a>
-              <span className="mx-2">·</span>
+            <p className="flex flex-wrap items-center gap-2">
+              <EmailLink user={profile.email.split('@')[0]} domain={profile.email.split('@')[1]} layout="inline-icon" />
+              <span className="text-neutral-400">·</span>
               <span>{profile.location}</span>
             </p>
             {/* Moved Links up near location */}
