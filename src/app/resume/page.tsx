@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { profile } from '../../data/profile';
-import { PrintButton } from '../../components/PrintButton';
+import { EmailLink } from '../../components/EmailLink';
+import { ResumeActions } from '../../components/ResumeActions';
 import { cvArticles } from '../../data/cv';
 
 export default function ResumePage() {
