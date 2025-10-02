@@ -13,7 +13,9 @@ export default function ResumePage() {
         <div className="card p-6">
           <div className="flex items-center justify-between gap-4">
             <h1 className="section-title">Resume</h1>
-            <PrintButton />
+            <div className="flex items-center gap-3 flex-wrap">
+              <ResumeActions downloadLabel="Download 1 pager CV" />
+            </div>
           </div>
           <div className="mt-6 space-y-4 text-sm leading-6">
             <p className="font-semibold">{profile.name}</p>
