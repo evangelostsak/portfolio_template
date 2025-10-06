@@ -33,7 +33,7 @@ export const projects: Project[] = [
       "Docker",
       "Infrastructure as Code",
     ],
-    image: "",
+    image: "/images/high_level_infra.png",
     link: "https://github.com/evangelostsak/AWS_Grocery_v2",
     repo: "https://github.com/evangelostsak/AWS_Grocery_v2",
    },
