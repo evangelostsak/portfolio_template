@@ -10,13 +10,29 @@ export type CvArticle = {
 };
 
 export const cvArticles: CvArticle[] = [
+    {
+    title: 'DevOps Engineer - Project Coordinator',
+    org: 'Webeet',
+    location: 'Berlin, Germany (Remote)',
+    period: 'Sep 2025 – Present',
+    bullets: [
+      'Led & mentored multiple DevOps intern squads (12-15 People) providing architectural direction & prioritization without hands‑on coding.',
+      'Ran structured office hours (2×/week) + ad‑hoc coaching to unblock Terraform / AWS / CI/CD and build autonomous problem solving.',
+      'Built onboarding playbooks, review rubric & runbooks: cut first‑PR turnaround from ~3 days to <1.5 and reduced revision cycles via structured PR reviews.',
+      'Standardized secure patterns (network segmentation, least‑privilege IAM, pipeline security) & enforced quality gates (plan, lint, security scan) in GitHub Actions.',
+      'Introduced decision & escalation logs + lightweight retros → fewer repeat questions & stronger knowledge retention.',
+      'Fostered psychological safety & continuous improvement through weekly knowledge shares and daily Stand-ups.',
+    ],
+    tags: ['Mentorship', 'Leadership', 'AWS', 'Terraform', 'CI/CD', 'GitHub Actions', 'Security', 'DevOps'],
+    type: 'work',
+  },
   {
-    title: 'DevSecOps Engineer',
+    title: 'DevOps Engineer',
     org: 'Webeet',
     location: 'Berlin, Germany (Remote)',
     period: 'Aug 2025 – Sep 2025',
     bullets: [
-      'Led and mentored two teams of interns, guiding Terraform, AWS, and DevSecOps practices',
+      'Led and mentored two teams of interns, guiding Terraform, AWS, and DevOps practices',
       'Collaborated on secure AWS infrastructure design across networking, compute, storage, and monitoring layers',
       'Authored Terraform modules with accompanying Terratest (Go) cases to enforce infrastructure correctness',
       'Implemented secure private connectivity (WireGuard VPN) with Caddy reverse proxy and iptables NAT (MASQUERADE)',
