@@ -18,9 +18,9 @@ export type Profile = {
 
 export const profile: Profile = {
   name: "Evangelos Tsakoudis",
-  role: "Cloud & DevSecOps Engineer",
+  role: "Cloud & DevOps Engineer",
   summary:
-    "Cloud & DevSecOps Engineer with AWS certification and hands-on experience automating infrastructure, secure delivery pipelines, and resilient backend workloads. I bridge infrastructure-as-code (Terraform), cloud architecture, and test automation (Terratest / CI) to ship reliable, observable systems—while continuously levelling up in scalability, security, and cost-aware design.",
+    "Cloud & DevOps Engineer with AWS certification and hands-on experience automating infrastructure, secure delivery pipelines, and resilient backend workloads. I bridge infrastructure-as-code (Terraform), cloud architecture, and test automation (Terratest / CI) to ship reliable, observable systems—while continuously levelling up in scalability, security, and cost-aware design.",
   location: "Berlin, Germany",
   email: "baggtsak55@gmail.com",
   lookingFor: "Full time - Part time position / Internship",
