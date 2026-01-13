@@ -24,7 +24,7 @@ export const cvArticles: CvArticle[] = [
       'Integrate security into delivery processes with automated vulnerability scanning, secrets management, and access controls to reduce operational risk.',
       'Lead and mentor DevSecOps engineers while working closely with development, QA, data, and security teams to improve platform stability and delivery speed.',
     ],
-    tags: ['Mentorship', 'Leadership', 'AWS', 'Terraform', 'CI/CD', 'GitHub Actions', 'Security', 'DevOps'],
+    tags: ['Mentorship', 'Leadership', 'AWS', 'Terraform', 'CI/CD', 'GitHub Actions', 'Security', 'DevOps', 'Kubernetes', 'Docker', 'Security', 'Cost Optimization'],
     type: 'work',
   },
     {
